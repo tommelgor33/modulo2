@@ -1,0 +1,369 @@
+li{
+    list-style-type: none;
+}
+
+nav.navbar{
+    background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(121,19,9,1) 30%, rgba(253,187,45,1) 100%);
+    padding: 0;
+    
+}
+
+ul.nav.nav-tabs.navbar-expand-lg.navbar-fixed-top{
+border: 0px;
+}
+
+a.nav-link{
+    color: black;
+}
+
+a.nav-link:hover{
+    color: blue;
+}
+
+/*fondo botones navbar*/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: pink;
+}
+
+/*-- Botones redes --*/ 
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: #0077b5;
+}
+
+i.fa-brands.fa-linkedin.fa-2xl{
+    margin: 5%;
+    margin: 3px;
+
+}
+
+i.fa-brands.fa-square-github.fa-2xl:hover{
+    color: white;
+    
+}
+
+i.fa-brands.fa-square-github.fa-2xl{
+margin: 3px;
+}
+
+i.fa-brands.fa-square-facebook.fa-2xl:hover{
+    color: blue
+}
+
+i.fa-brands.fa-square-facebook.fa-2xl{
+margin: 3px;
+}
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: purple
+}
+
+i.fa-brands.fa-instagram.fa-2xl{
+    margin: 3px;
+}
+
+i.fa-solid.fa-user.fa-xl:hover{
+color: green;
+}
+
+i.fa-solid.fa-user.fa-xl{
+    margin: 3px;
+    margin-right: 10px;
+    
+}
+
+body{
+    background-color: rgba(36,0,0,0.8);
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+        background-repeat: repeat;
+}
+
+/*banner*/
+
+#carouselExampleCaptions{
+    background-color: #802f00;
+    background-image: url("https://www.transparenttextures.com/patterns/white-brick-wall.png");
+
+}
+
+img.d-block.w-auto{
+    height: 30em;
+    max-width: 100%;
+    margin-top: auto;
+    
+}
+
+div.carousel-caption h5, p{
+  text-shadow: 0px 0px 5px #000;
+}
+
+img.d-block.w-75.rounded-circle{
+    margin-top: -8em;
+    margin-left: 2.5em;
+    position: relative;
+}
+
+section.panel{
+    margin-top: 9rem;
+}
+
+div{
+    color: darkgoldenrod;
+}
+
+h5.indices{
+    text-align: right;
+}
+
+h5.exper{
+    text-align: left;
+}
+
+h3 strong{
+  display: block;
+  padding: .2em;
+  background-color:rgba(51,21,21,1);
+  border-radius: 20px;
+  margin-top: 1em;  
+}
+
+.expfon{
+    border-radius: 20px;
+    background-color:rgba(121,121,121,0.3);
+    margin-top: 1em;
+    padding: .5em
+}
+
+/*-------------mucho texto de las skills ----------------------*/
+h5.circular-progres{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin:auto;
+    background: linear-gradient(140deg,#fff 50%, rgba(255,255,255, .2) 50%);
+    position: relative;
+    margin-bottom: 1em;
+}
+h5.circular-progres::before{
+    content: "";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: -1.3em;
+    left: -1.3em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+}
+h5.circular-progres::after{
+    content: "80%";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    background: linear-gradient(transparent 50%,#111 50%);
+    transform: scale(1.01);
+}
+
+h5.circular-progres1{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin:auto;
+    background: linear-gradient(160deg,#fff 50%, rgba(255,255,255, .2) 50%);
+    position: relative;
+    margin-bottom: 1em;
+}
+h5.circular-progres1::before{
+    content: "";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: -1.3em;
+    left: -1.3em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+}
+h5.circular-progres1::after{
+    content: "90%";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    background: linear-gradient(transparent 50%,#111 50%);
+    transform: scale(1.01);
+}
+
+h5.circular-progres2{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin:auto;
+    background: linear-gradient(90deg,#fff 50%, rgba(255,255,255, .2) 50%);
+    position: relative;
+    margin-bottom: 1em;
+}
+h5.circular-progres2::before{
+    content: "";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: -1.3em;
+    left: -1.3em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+}
+h5.circular-progres2::after{
+    content: "50%";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    background: linear-gradient(transparent 50%,#111 50%);
+    transform: scale(1.01);
+}
+
+h5.circular-progres3{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin:auto;
+    background: linear-gradient(140deg,#fff 50%, rgba(255,255,255, .2) 50%);
+    position: relative;
+    margin-bottom: 1em;
+}
+h5.circular-progres3::before{
+    content: "";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: -1.3em;
+    left: -1.3em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+}
+h5.circular-progres3::after{
+    content: "80%";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    background: linear-gradient(transparent 50%,#111 50%);
+    transform: scale(1.01);
+}
+
+h5.circular-progres4{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin:auto;
+    background: linear-gradient(110deg,#fff 50%, rgba(255,255,255, .2) 50%);
+    position: relative;
+    margin-bottom: 1em;
+}
+h5.circular-progres4::before{
+    content: "";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: -1.3em;
+    left: -1.3em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+}
+h5.circular-progres4::after{
+    content: "60%";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    background: linear-gradient(transparent 50%,#111 50%);
+    transform: scale(1.01);
+}
+
+h5.circular-progres5{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    margin:auto;
+    background: linear-gradient(90deg,#fff 50%, rgba(255,255,255, .2) 50%);
+    position: relative;
+    margin-bottom: 1em;
+}
+h5.circular-progres5::before{
+    content: "";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: -1.3em;
+    left: -1.3em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    line-height: 1em;
+}
+h5.circular-progres5::after{
+    content: "50%";
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 0em;
+    left: 0em;
+    background: #111 content-box;
+    border-radius: 50%;
+    padding: 1.5em;
+    background: linear-gradient(transparent 50%,#111 50%);
+    transform: scale(1.01);
+}
